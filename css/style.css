@@ -8,311 +8,6 @@ Template: oneengine
 Version: 1.0.0
 */
 
-@import url('../oneengine/style.css');
-
-
-/*------------------
-.		GENERAL STYLING
-------------------*/
-.se-section {
-	margin-bottom: 60px;
-}
-
-p.se-paragraph {
-	padding: 0 5px;
-	font-weight: 300;
-	font-size: 20px;
-}
-
-h2.se-title {
-	color: black;
-}
-
-h3.se-subtitle {
-	font-size: 22px;
-	font-weight: 400 !important;
-}
-
-.color-white * .list-services-wrapper .service-wrapper .icon {
-	border-color: white;
-}
-
-footer * p {
-	font-weight: 600 !important;
-}
-
-div.tab-pane {
-	margin: 20px 0;
-}
-
-.template-wrap {
-	padding: 50px 0;
-}
-
-/*------------------
-.		BLOG
-------------------*/
-
-.se-blogimage {
-	margin: 15px;
-}
-
-.wp-caption-text {
-	font-size: 14px !important;
-}
-
-
-/*------------------
-.		SLIDER
-------------------*/
-.text-slider {
-	width:480px;
-}
-
-a#scroll_to {
-	width: 700px;
-}
-
-/*------------------
-.		MENU
-------------------*/
-.logo-wrapper img {
-	max-height: 65px;
-}
-
-
-@media (max-width: 991px){
-	.logo a {
-		top: -1px;
-	}
-
-	.logo-wrapper img {
-		max-height: 50px;
-	}
-}
-
-/*@media (min-width: 991px) {*/
-	.se-button a, button.se-button  {
-		border: 3px solid !important;
-		border-radius: 5px;
-		padding: 10px !important;
-		background-color: transparent;
-	}
-
-	.se-button a:hover, button.se-button:hover {
-		color: rgb(148, 79, 29) !important;
-	}
-/*}*/
-
-
-/*------------------
-.		PROBLEM
-------------------*/
-.se-icon-row * p {
-	font-size: 18px !important;
-}
-
-/*------------------
-.		SOLUTION
-------------------*/
-
-/* tables */
-
-table, th, td {
-   border: 1px solid black;
-}
-
-table {
-    width: 100%;
-}
-
-td,th {
-    padding: 15px;
-}
-
-.se-product-elements * li[role="presentation"] a {
-	text-align: center;
-	padding: 10px 5px;
-}
-
-.se-product-elements * li[role="presentation"] {
-	padding: 0 4px;
-}
-
-.se-product-elements * img.img-circle,
-#general .se-general-product-img img {
-	height: 100%;
-	width: 100%;
-}
-
-.se-product-elements * div.se-product-img {
-	border: 4px solid;
-	border-radius: 50%;
-	width: 300px;
-	padding: 0;
-}
-
-@media (max-width: 991px) {
-	.se-product-img {
-		margin: auto;
-	}
-}
-
-#general .se-general-product-img {
-	border-radius: 0;
-	padding: 0;
-	border: 4px solid;
-}
-
-
-.se-product-elements * div {
-	height: 100%;
-}
-
-
-.se-product-elements * div.tab-pane {
-	height: 300px;
-}
-
-.se-product-elements * table {
-	height: 100%;
-	width: 100%;
-}
-
-.se-product-elements * table td {
-	padding: 0;
-}
-
-
-
-/*------------------
-.		IMPACT
-------------------*/
-
-@media (max-width: 992px) {
-	#impact {
-		top: 300px;
-		padding-bottom: 300px;
-	}
-}
-
-/* omdat impact achtergrond heeft*/
-#impact * h2,
-#impact * p {
-	font-weight: 600;
-}
-
-.se-icon-row * h2 {
-	min-height: 48px;
-}
-
-/*------------------
-.		TEAM
-------------------*/
-@media (min-width:1200px) {
-	.caption {
-		margin: 0 75px;
-	}
-}
-
-@media (min-width: 991px) and (max-width: 1200px) {
-	.caption {
-		margin: 0 50px;
-	}
-}
-
-@media (max-width:991px) {
-	.caption {
-		margin: auto;
-	}
-}
-
-.se-member img {
-	height: 270px;
-}
-
-.caption {
-	display: none;
-	line-height: normal;
-	position:absolute;
-	background:#DF8747;
-	opacity: 0.75;
-	width:231px;
-	height:100%;
-	left: 0;
-	right: 0;
-}
-
-.caption h3{
-	margin-top: 80px;
-	color:white;
-	text-align: center;
-}
-
-.se-squad * .se-member {
-	width: 300px;
-	margin: 0 auto 0 auto;
-}
-
-.se-squad * .se-member-wrapper {
-	margin-bottom: 30px;
-}
-.se-squad {
-	/*test*/
-	margin-bottom: 0;
-}
-
-.se-squad-content {
-	color:white;
-	font-weight: 600;
-}
-
-img.se-full-team {
-	height: 400px
-}
-
-.nav.nav-tabs a {
-	font-size: 20px
-}
-
-/*------------------
-.		PARTNERS
-------------------*/
-.se-partners * img {
-	margin: 0 40px 30px; /*change*/
-	height: auto;
-}
-
-
-/*------------------
-.		CONTACT
-------------------*/
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-	color:    white;
-}
-input:-moz-placeholder, textarea:-moz-placeholder {
-	color:    white;
-}
-input::-moz-placeholder, textarea::-moz-placeholder {
-	color:    white;
-}
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-	color:    white;
-}
-
-.wpcf7-submit:focus {
-	outline: 0
-}
-
-.wpcf7-response-output {
-	color: white;
-	font-weight: bold;
-}
-
-span.wpcf7-not-valid-tip {
-	color: black;
-}
-
 /*
 Theme Name: OneEngine
 Theme URI: http://www.enginethemes.com/themes/oneengine
@@ -635,7 +330,7 @@ a, a:hover{
 	vertical-align: middle;
 }
 .img-scroll-down{
-	background:url(images/arrow.png) no-repeat;
+	background:url(../img/arrow.png) no-repeat;
 	height:17px;
 	width:17px;
 	position:absolute;
@@ -658,7 +353,7 @@ a#scroll_to {
 	width:17px;
 	height:17px;
 	display:block;
-	background:url(images/arrow.png) no-repeat;
+	background:url(../img/arrow.png) no-repeat;
 	background-position:-35px 0px;
 }
 .arrow-right-slider{
@@ -1200,7 +895,7 @@ ul.portfolio-category li a:hover span.icon-categories i, ul.portfolio-category l
 .arrow-port{
 	width:17px;
 	height:17px;
-	background:url(images/arrow.png) no-repeat center center;
+	background:url(../img/arrow.png) no-repeat center center;
 	background-position:0 0;
 	display:inline-block;
 	position:relative;
@@ -1996,7 +1691,7 @@ footer {
 	        transition: all 0.5s ease;
 }
 .quote-charater{
-	background:url(images/arrow.png) no-repeat;
+	background:url(../img/arrow.png) no-repeat;
 	width:40px;
 	height:40px;
 	display:block;
@@ -2431,3 +2126,307 @@ footer {
 		width: 50%;
 	}
 }
+
+
+/*------------------
+.		GENERAL STYLING
+------------------*/
+.se-section {
+	margin-bottom: 60px;
+}
+
+p.se-paragraph {
+	padding: 0 5px;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+h2.se-title {
+	color: black;
+}
+
+h3.se-subtitle {
+	font-size: 22px;
+	font-weight: 400 !important;
+}
+
+.color-white * .list-services-wrapper .service-wrapper .icon {
+	border-color: white;
+}
+
+footer * p {
+	font-weight: 600 !important;
+}
+
+div.tab-pane {
+	margin: 20px 0;
+}
+
+.template-wrap {
+	padding: 50px 0;
+}
+
+/*------------------
+.		BLOG
+------------------*/
+
+.se-blogimage {
+	margin: 15px;
+}
+
+.wp-caption-text {
+	font-size: 14px !important;
+}
+
+
+/*------------------
+.		SLIDER
+------------------*/
+.text-slider {
+	width:480px;
+}
+
+a#scroll_to {
+	width: 700px;
+}
+
+/*------------------
+.		MENU
+------------------*/
+.logo-wrapper img {
+	max-height: 65px;
+}
+
+
+@media (max-width: 991px){
+	.logo a {
+		top: -1px;
+	}
+
+	.logo-wrapper img {
+		max-height: 50px;
+	}
+}
+
+/*@media (min-width: 991px) {*/
+	.se-button a, button.se-button  {
+		border: 3px solid !important;
+		border-radius: 5px;
+		padding: 10px !important;
+		background-color: transparent;
+	}
+
+	.se-button a:hover, button.se-button:hover {
+		color: rgb(148, 79, 29) !important;
+	}
+/*}*/
+
+
+/*------------------
+.		PROBLEM
+------------------*/
+.se-icon-row * p {
+	font-size: 18px !important;
+}
+
+/*------------------
+.		SOLUTION
+------------------*/
+
+/* tables */
+
+table, th, td {
+   border: 1px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+td,th {
+    padding: 15px;
+}
+
+.se-product-elements * li[role="presentation"] a {
+	text-align: center;
+	padding: 10px 5px;
+}
+
+.se-product-elements * li[role="presentation"] {
+	padding: 0 4px;
+}
+
+.se-product-elements * img.img-circle,
+#general .se-general-product-img img {
+	height: 100%;
+	width: 100%;
+}
+
+.se-product-elements * div.se-product-img {
+	border: 4px solid;
+	border-radius: 50%;
+	width: 300px;
+	padding: 0;
+}
+
+@media (max-width: 991px) {
+	.se-product-img {
+		margin: auto;
+	}
+}
+
+#general .se-general-product-img {
+	border-radius: 0;
+	padding: 0;
+	border: 4px solid;
+}
+
+
+.se-product-elements * div {
+	height: 100%;
+}
+
+
+.se-product-elements * div.tab-pane {
+	height: 300px;
+}
+
+.se-product-elements * table {
+	height: 100%;
+	width: 100%;
+}
+
+.se-product-elements * table td {
+	padding: 0;
+}
+
+
+
+/*------------------
+.		IMPACT
+------------------*/
+
+@media (max-width: 992px) {
+	#impact {
+		top: 300px;
+		padding-bottom: 300px;
+	}
+}
+
+/* omdat impact achtergrond heeft*/
+#impact * h2,
+#impact * p {
+	font-weight: 600;
+}
+
+.se-icon-row * h2 {
+	min-height: 48px;
+}
+
+/*------------------
+.		TEAM
+------------------*/
+@media (min-width:1200px) {
+	.caption {
+		margin: 0 75px;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+	.caption {
+		margin: 0 50px;
+	}
+}
+
+@media (max-width:991px) {
+	.caption {
+		margin: auto;
+	}
+}
+
+.se-member img {
+	height: 270px;
+}
+
+.caption {
+	display: none;
+	line-height: normal;
+	position:absolute;
+	background:#DF8747;
+	opacity: 0.75;
+	width:231px;
+	height:100%;
+	left: 0;
+	right: 0;
+}
+
+.caption h3{
+	margin-top: 80px;
+	color:white;
+	text-align: center;
+}
+
+.se-squad * .se-member {
+	width: 300px;
+	margin: 0 auto 0 auto;
+}
+
+.se-squad * .se-member-wrapper {
+	margin-bottom: 30px;
+}
+.se-squad {
+	/*test*/
+	margin-bottom: 0;
+}
+
+.se-squad-content {
+	color:white;
+	font-weight: 600;
+}
+
+img.se-full-team {
+	height: 400px
+}
+
+.nav.nav-tabs a {
+	font-size: 20px
+}
+
+/*------------------
+.		PARTNERS
+------------------*/
+.se-partners * img {
+	margin: 0 40px 30px; /*change*/
+	height: auto;
+}
+
+
+/*------------------
+.		CONTACT
+------------------*/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color:    white;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+	color:    white;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+	color:    white;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+	color:    white;
+}
+
+.wpcf7-submit:focus {
+	outline: 0
+}
+
+.wpcf7-response-output {
+	color: white;
+	font-weight: bold;
+}
+
+span.wpcf7-not-valid-tip {
+	color: black;
+}
+
